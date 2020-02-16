@@ -1,4 +1,4 @@
-from pyfirmata2 import ArduinoNano, util
+from pyfirmata import ArduinoNano, util
 import time
 
 
@@ -91,7 +91,7 @@ class arbd1:
                 return int(value * 100)
             except:
                 self.delay=self.delay+0.01
-                print(" POT RETURNING NONE")
+                #print(" POT RETURNING NONE")
 
 
     def ldr(self):
