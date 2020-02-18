@@ -7,3 +7,12 @@ This application enables user to control the present sensors and actuators on AR
 <img src="/pictures/dashboard.png" alt="ARBD1" width='600' height='500'>
 <br/>
 </p>
+
+## Dependencies required
+
+   #pyqt5
+   pip install pyqt5
+   #pyfirmata
+   pip install pyfirmata
+   
+To run the application run arbd_main.py file.
