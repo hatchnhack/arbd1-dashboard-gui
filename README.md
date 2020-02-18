@@ -9,10 +9,9 @@ This application enables user to control the present sensors and actuators on AR
 </p>
 
 ## Dependencies required
-
-   #pyqt5
-   pip install pyqt5
-   #pyfirmata
-   pip install pyfirmata
+   #pyqt5<br/>
+   #pip install pyqt5<br/>
+   #pyfirmata<br/>
+   #pip install pyfirmata<br/>
    
 To run the application run arbd_main.py file.
